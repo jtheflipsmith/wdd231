@@ -4,16 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD231 Site-Hub</title>
+    <!-- STYLE SHEETS -->
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/large-index.css">
+    <!-- SCRIPTS -->
+    <script src="scripts/index.js" defer></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- HEADER -->
+
     <header>
+        <div id="profile">
+            <img src="images/profile-pic.png" alt="Josh Smiling">
+            <span><h1>Joshua Smith</h1></span>
+        </div>
+        
         <nav>
-            <a href="">About Page</a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+            <div class = dropdown>
+                <!-- Pulled hamburger button tutorial from W3 Schools as it is what I was most looking for-->
+                <button onclick="hamburgerButton(this)" id="dropbtn">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>    
+                    <ul class="navigation" onclick="haburgerButton(this)">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="">Chamber</a></li>
+                        <li><a href="">GitHub Profile</a></li>
+                        <li><a href="">LinkedIn</a></li>
+                    </ul>
+            </div>        
         </nav>
     </header>
+
+    <!-- MAIN -->
+
+    <main>
+        <h1>Home</h1>
+        <div class="info">
+            <section id="work">
+                <h2>Course Work</h2>
+                <ul>    
+                    <li>Week 1</li>
+                    <li>Week 2</li>
+                    <li>Week 3</li>
+                </ul>
+            </section>
+            <section id="river">
+                <h2>Edmonton, Canada</h2>
+                <img src="images/north-sask.JPEG" alt="North Saskatchewan River">
+                <p>North Saskatchewan River</p>
+            </section>
+            <section id="school">
+                <h2>Web and Computer Programming Certificate</h2>
+                <div id="courses" class="cards">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Joshua Smith | Canada</p>
+        <div class="mod">
+            <p id="lastModified"></p>
+        </div>
+    </footer>
 </body>
 </html>

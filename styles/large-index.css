@@ -1,0 +1,32 @@
+@media screen and (min-width: 650px) {
+
+    
+
+
+    .navigation {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+
+    .info {
+        display: grid;
+        grid-template-columns: 1fr 30%;
+    }
+
+
+
+    #school {
+        grid-column: 1/4;
+    }
+
+    #dropbtn {
+        display: none;
+    }
+}

@@ -1,0 +1,127 @@
+/* - COLOR PALLET - */
+/* CSS HSL */
+:root {
+    --orange-crayola: hsla(19, 84%, 60%, 1);
+    --cerulean: hsla(195, 100%, 33%, 1);
+    --picton-blue: hsla(195, 100%, 44%, 1);
+    --indigo-dye: hsla(205, 100%, 20%, 1);
+    --rich-black: hsla(195, 100%, 6%, 1);
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* ------ HEADER ------- */
+
+header {
+    background: var(--indigo-dye);
+}
+
+header img {
+    width: 100px;
+    margin-right: 3rem;
+    box-shadow: .25rem 0 1rem;
+    color: var(--rich-black);
+    
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: antiquewhite;
+
+}
+
+
+
+/* ------ NAVIGATION ------ */
+
+nav {
+    background: var(--rich-black);
+    margin: 0 auto;
+}
+
+.navigation {
+    list-style-type: none;
+}
+
+
+
+.navigation li {
+    display: none;
+}
+
+.change li {
+    display: block;
+}
+
+
+
+/* Next few elements inspiration pulled from W3 Schools */
+
+#dropbtn {
+    display: block;
+    cursor: pointer;
+    background: var(--orange-crayola);
+    border: none;
+}
+
+#dropbtn:hover {
+    background: orange
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: var(--rich-black);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+.change .bar1 {
+    transform: translate(-11px, 11px) rotate(-90deg);
+}
+
+.change .bar2 {
+    transform: translate(0, 0) rotate(-90deg);
+}
+
+.change .bar3 {
+    transform: translate(11px, -11px) rotate(-90deg);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: .75rem;
+    border-radius: 3px;
+    color: beige;
+}
+
+a:hover {
+    background: whitesmoke;
+    color: navy;
+    box-shadow: inset -2px 2px 2px grey;
+    border-radius: 3px;
+}
+
+/* ------ MAIN ------- */
+
+#river img {
+    width: 98%;
+}
+
+section {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background: lightgray;
+    box-shadow: 0 0 10px rgb(66, 65, 65);
+}
