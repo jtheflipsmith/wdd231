@@ -49,6 +49,7 @@ nav {
 
 .navigation {
     list-style-type: none;
+    margin-left: -39px;
 }
 
 
@@ -107,9 +108,18 @@ a {
 
 a:hover {
     background: whitesmoke;
-    color: navy;
-    box-shadow: inset -2px 2px 2px grey;
+    color: var(--rich-black);
+    box-shadow: inset -3px 3px 3px grey;
     border-radius: 3px;
+}
+
+.active {
+    background: antiquewhite;
+    color: var(--rich-black)
+}
+
+.active:hover {
+    background: antiquewhite;
 }
 
 /* ------ MAIN ------- */
@@ -124,4 +134,18 @@ section {
     padding: 10px;
     background: lightgray;
     box-shadow: 0 0 10px rgb(66, 65, 65);
+}
+
+.highlight {
+    background: var(--picton-blue);
+}
+
+/* ---- FOOTER ----- */
+
+footer {
+    background: var(--rich-black);
+    color: antiquewhite;
+    text-align: center;
+    padding: 1rem;
+
 }

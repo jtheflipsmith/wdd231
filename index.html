@@ -34,10 +34,10 @@
                     <div class="bar3"></div>
                 </button>    
                     <ul class="navigation" onclick="haburgerButton(this)">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#" class="active">Home</a></li>
                         <li><a href="">Chamber</a></li>
                         <li><a href="">GitHub Profile</a></li>
-                        <li><a href="">LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/in/joshua-smith-1630b2167/">LinkedIn</a></li>
                     </ul>
             </div>        
         </nav>
@@ -63,6 +63,11 @@
             </section>
             <section id="school">
                 <h2>Web and Computer Programming Certificate</h2>
+                <div id="filterButtons">
+                    <button class="btn active" onclick="courseFilter('all')" >All Courses</button>
+                    <button class="btn">CSE</button>
+                    <button class="btn">WDD</button>
+                </div>
                 <div id="courses" class="cards">
                 </div>
             </section>

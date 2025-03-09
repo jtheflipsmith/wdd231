@@ -109,11 +109,30 @@ function courseCards(courses) {
         let technology = document.createElement("p")
 
         name.textContent = `${course.subject} ${course.number}`;
+        title.textContent = `${course.title}`
+        credit.textContent = `Credits: ${course.credits}`
+        certificate.textContent = `${course.certificate}`
+
+        let complete = course.completed
+
+        if (complete === true) {
+            card.classList.add("highlight");
+        }
+
+        /*if (course.completed) {
+            card.classList.add(highlight)
+        }*/
 
         card.appendChild(name);
-        
+        card.appendChild(title);
+        card.appendChild(credit)
+
+        document.querySelector(".cards").appendChild(card);
+
     });
 }
+
+courseCards(courses);
 
 
 
