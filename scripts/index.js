@@ -2,6 +2,7 @@
 // Storing navigation components (li and button)
 const mainNav = document.querySelector(".navigation");
 const dropButton = document.querySelector("#dropbtn");
+const cseClasses = document.querySelector("#cse")
 
 // Drop button animation 
 function hamburgerButton(x) {
@@ -97,9 +98,16 @@ const courses = [
     }
 ]
 
-function courseCards(courses) {
+cseClasses.addEventListener("click", () => {
+    let cseButton = courses.filter(course => !course.subject("WDD"));
+    courseCards(cseButton);
+})
+
+courseCards(courses);
+
+function courseCards(filteredClasses) {
     document.querySelector(".cards").innerHTML = "";
-    courses.forEach(course => {
+    filteredClasses.forEach(course => {
         let card = document.createElement("section");
         let name = document.createElement("h2");
         let title = document.createElement("p");
@@ -113,15 +121,12 @@ function courseCards(courses) {
         credit.textContent = `Credits: ${course.credits}`
         certificate.textContent = `${course.certificate}`
 
-        let complete = course.completed
+        let complete = course.completed;
+        let subject = course.subject;
 
         if (complete === true) {
             card.classList.add("highlight");
         }
-
-        /*if (course.completed) {
-            card.classList.add(highlight)
-        }*/
 
         card.appendChild(name);
         card.appendChild(title);
@@ -132,7 +137,7 @@ function courseCards(courses) {
     });
 }
 
-courseCards(courses);
+
 
 
 

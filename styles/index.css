@@ -136,9 +136,20 @@ section {
     box-shadow: 0 0 10px rgb(66, 65, 65);
 }
 
+#filterButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#filterButtons button {
+    width: 30%;
+    padding: .75rem;
+}
+
 .highlight {
     background: var(--picton-blue);
 }
+
 
 /* ---- FOOTER ----- */
 
