@@ -1,6 +1,6 @@
 // ------ HAMBURGER BUTTON AND NAVIGATION ------
 // Storing navigation components (li and button)
-const mainNav = document.querySelector(".navigation");
+const mainNav = document.querySelector("#animateMe");
 const dropButton = document.querySelector("#dropbtn");
 const cseClasses = document.querySelector("#cse")
 
@@ -11,7 +11,7 @@ function hamburgerButton(x) {
 
 // Adding click event listener to toggle show
 dropButton.addEventListener("click", () => {
-    mainNav.classList.toggle("change")
+    mainNav.classList.toggle("open")
 });
 
 

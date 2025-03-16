@@ -44,22 +44,17 @@ header img {
 
 nav {
     background: var(--rich-black);
-    margin: 0 auto;
+    margin-top: -1rem;
 }
 
-.navigation {
-    list-style-type: none;
-    margin-left: -39px;
+nav ol {
+    list-style: none;
+    padding: 0;
+
 }
 
-
-
-.navigation li {
-    display: none;
-}
-
-.change li {
-    display: block;
+.open li {
+    display: grid;
 }
 
 
@@ -109,7 +104,7 @@ a {
 a:hover {
     background: whitesmoke;
     color: var(--rich-black);
-    box-shadow: inset -3px 3px 3px grey;
+    box-shadow: inset 0 0 5px grey;
     border-radius: 3px;
 }
 

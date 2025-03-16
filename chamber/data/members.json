@@ -1,0 +1,68 @@
+{
+    "members": [
+        {
+            "companyName": "Classic Landscapes LTD",
+            "address": "10006 6 Ave SW, Edmonton, AB",
+            "phoneNumber": "+1(780)988-9888",
+            "websiteURL": "https://www.classiclandscapes.com/",
+            "image": "https://www.classiclandscapes.com/media/logo/stores/1/Classic-Logo-spacing.jpg",
+            "membership": 2,
+            "info": "First started by Jack Payne, now owned by his son Josh, Classic Landscapes is a large staple in the community of Edmonton responsible for many projects within the city"
+        },
+        {
+            "companyName": "CleanPro Windows & Gutters",
+            "address": "6713 96th St NW, Edmonton, AB",
+            "phoneNumber": "+1 (780) 216-9888",
+            "websiteURL": "https://www.cleanprowindows.com/",
+            "image": "https://static.wixstatic.com/media/4c3ffd_80367fb777714df7837913c288422961~mv2.jpg/v1/crop/x_0,y_5,w_912,h_212/fill/w_191,h_44,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/CleanPro%20Logo%20Black.jpg",
+            "membership": 1,
+            "info": "As a small start up John and Parker grew this to a two team opporation and never dipped below 5 stars in their ratings."
+        },
+        {
+            "companyName": "Weiss-Johnson Sheetmetal",
+            "address": "5803 Roper Road NW, Edmonton, AB",
+            "phoneNumber": "(780)463-3096",
+            "websiteURL": "https://weiss-johnson.com/?gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KcSQJj_XsBnsqIn_Soxag9BN4acF6hbPwkMont3khGYCA3w_LQy-S4aAoCYEALw_wcB",
+            "image": "https://weiss-johnson.com/wp-content/uploads/2020/04/WJ_Logo_April_2020_Plumbing_Services_web.png",
+            "membership": 3,
+            "info": "Being in business for over 70 years the company is now run by Denis Johnson and has over 200 employees"
+        },
+        {
+            "companyName":"From Play To Words",
+            "address": "Unit 212, 6055 Andrews Way SW, Edmonton, AB",
+            "phoneNumber": "780-571-0880",
+            "websiteURL": "https://fromplaytowords.com/",
+            "image": "https://fromplaytowords.com/images/logo.png",
+            "membership":2,
+            "info": "Specializing in speech language, the central goal of From Play To Words is to build language skill through play"
+        },
+        {
+            "companyName": "Peters' Drive In",
+            "address": "5151 Calgary Trail NW, Edmonton, AB",
+            "phoneNumber": "+15876352986",
+            "websiteURL": "http://www.petersdrivein.com/",
+            "image": "http://www.petersdrivein.com/cloud/petersdrivein/css/img/assocLogo.svg",
+            "membership":2,
+            "info": "Known for its delicious milkshakes, Peters' is a good stop in if ever visiting Edmonton"
+        },
+        {
+            "companyName": "Wee Book Inn",
+            "address": "10310 Whyte Ave NW, Edmonton, AB, T6E 1Z8, Canada",
+            "phoneNumber": "780.432.7230",
+            "websiteURL": "https://www.weebookinn.com/",
+            "image": "https://images.squarespace-cdn.com/content/v1/5581c6cee4b00730709caf44/1434599085420-2N14NMLGT2R00I68F6XN/LOGO2.png?format=1500w",
+            "membership": 1,
+            "info": "A cute little nook for anyone who loves books"
+        },
+        {
+            "companyName": "Route 99 Diner",
+            "address": "8820 99 St NW, Edmonton, AB T6E 3V2, Canada",
+            "phoneNumber": "+17804320968",
+            "websiteURL": "https://route99diner.com/",
+            "image": "https://restaurants-static.skipthedishes.com/images/resized/web-d826b5314711c60ee60b.png",
+            "membership":1,
+            "info": "A must see when visiting Edmonton, a time traveling experience to the fifties with great food and great service"
+        }
+    ]
+
+}

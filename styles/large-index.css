@@ -3,12 +3,15 @@
     
 
 
-    .navigation {
+
+
+    nav ol{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+
     }
 
-    .navigation li {
+    nav ol li{
         display: block;
         flex: 1 1 100%;
         text-align: center;

@@ -1,0 +1,16 @@
+body {
+    background-color: burlywood;
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#cards section {
+    background: lightblue;
+    grid-gap: 1rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    align-content: center;
+}
