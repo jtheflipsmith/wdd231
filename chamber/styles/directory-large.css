@@ -4,5 +4,14 @@
         grid-template-columns: 1fr 1fr 1fr;
     
     }
+
+    #small {
+        display: none;
+    }
+
+    #wide {
+        display: flex;
+        width: 100%;
+    }
     
 }

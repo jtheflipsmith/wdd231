@@ -9,9 +9,11 @@ body {
     background: var(--ivory);
 }
 
+/* --- HEADER --- */
+
+
 nav {
     background: var(--lapis-lazuli);
-    padding: .75rem;
 }
 
 nav ol{
@@ -21,23 +23,45 @@ nav ol{
 }
 
 nav ol li{
-    display: block;
-    
-    flex: 1 1 100%;
-    text-align: center;
 }
 
 
-nav a {
+nav ol a {
     text-decoration: none;
     background: var(--orange-crayola);
-    padding: .75rem;
+    padding: 2rem;
+    color: black;
+    border-radius: .25rem;
 }
+
 
 nav a:hover {
     background-color: var(--ivory);
     box-shadow: inset 0 0 5px gray;
 }
+
+
+/* -------- HOME -------- */
+
+#small {
+width: 100%;
+}
+
+#wide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -- DIRECTORY PAGE -- */
 
@@ -53,8 +77,8 @@ button {
     width: 8rem;
 }
 
-/* Grid View */
 
+/* ---- Grid View ----- */
 
 
 .grid {
@@ -103,3 +127,4 @@ button {
 .list section img {
     display: none;
 }
+
