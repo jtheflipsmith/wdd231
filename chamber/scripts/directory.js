@@ -8,8 +8,6 @@ async function getMemberData() {
         const data = await response.json();
         //console.table(data.members);
         memberCards(data.members)
-
-
 }
 
 const memberCards = (members) => {
@@ -34,11 +32,12 @@ const memberCards = (members) => {
         //membership.innerHTML = `<span class= label">Membership: </span>${member.membership}`;
         //info.innerHTML = member.info;
 
+        card.appendChild(image);
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(website)
-        card.appendChild(image);
+        ;
         //card.appendChild(membership)
         //card.appendChild(info)
 

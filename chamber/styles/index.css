@@ -11,9 +11,10 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    background: var(--ivory);
 }
 
-
+/* NAV */
 
 
 nav {
@@ -39,7 +40,50 @@ nav a:hover {
     background: var(--orange-crayola);
 }
 
+/* MAIN */
 
+#hero{
+    width: 100%;
+}
+
+section {
+    border: 1px solid gray;
+    padding: 1rem;
+
+}
+
+.weather {
+    text-align: center;
+    background: lightblue;
+    margin: 10px;
+}
+
+.call {
+    background: lightsalmon;
+}
+
+.call h2 {
+
+    padding: 10px;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+
+}
+
+.call button {
+    margin-top: 1rem;
+    padding: .75rem;
+    width: 100%;
+    font-size: large;
+}
+
+.events {
+    background: lightgray;
+}
+
+.spotlight {
+    background: var(--orange-crayola);
+}
 
 
 
