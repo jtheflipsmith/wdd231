@@ -41,7 +41,21 @@ nav a:hover {
     padding: .75rem;
 }
 
+.active:hover {
+    background: var(--ivory);
+}
+
 /* MAIN */
+
+h1 {
+    position: absolute;
+    padding: 10px;
+    background: rgba(214, 214, 214, 0.8);
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 3px 3px 10px gray;
+}
 
 #hero{
     width: 100%;
