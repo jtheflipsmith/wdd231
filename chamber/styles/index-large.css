@@ -12,17 +12,25 @@ main {
     grid-gap: 10px;
 }
 
-#hero {
+#wide {
+    display: block;
     grid-column: 1/5;
-
+    width: 100%;
 }
+
+#hero {
+    display: none;
+}
+
+
 
 /* SECTIONS */
 
 .weather {
-    grid-column: 3/5;
-}
 
+    grid-column: 3/5;
+
+}
 .call {
     grid-column: 1/3;
 }
