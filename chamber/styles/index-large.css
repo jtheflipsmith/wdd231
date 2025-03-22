@@ -1,12 +1,10 @@
 @media screen and (min-width: 650px) {
 
 #navigation {
-
     display: flex;
-    padding: .75rem;
-    justify-content: space-evenly;
-
+    justify-content: space-around;
 }
+
 
 main {
     display: grid;

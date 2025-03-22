@@ -9,6 +9,10 @@ const myAPI = "1daaaf53a95cb97560ba5be78bb03651"
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLon}&units=metric&appid=${myAPI}`;
 const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${myLat}&lon=${myLon}&appid=${myAPI}`
 
+
+
+
+
 // CURRENT WEATHER
 
 async function apiFetch() {
@@ -78,13 +82,18 @@ async function getMemberData() {
         memberCards(randomTwo)
 }
 
-//Inspiration from stack overflow and chatGPT
+// Stack OverFlow and ChatGPT helped lead me to Fisher-Yates algorithm, whiched helped in the randomization process.
 function getRandomMembers(array, count) {
     let shuffle = arrayShuffle([...array]);
     return shuffle.slice(0, count);
 }
 
+// Fisher-Yates shuffle algorithm
 function arrayShuffle(array) {
+    // create a for loop -- for (let 1 =...) 
+    // start from last element and work backwords --> array.length - 1 
+    // pick a random index --> let j = Math.floor(Math.random() * (i + 1))
+    // Swap array[i] and array[j] --> [array[i], array[j]] = [array[j], array[i]]
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
