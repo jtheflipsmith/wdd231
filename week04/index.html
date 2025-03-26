@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Practice</title>
+    <link rel="stylesheet" href="styles/dialog.css">
+    <script src="scripts/dialog.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h2>Dialog Practice</h2>
+    </header>
+    <!-- HTML only dialog using open to keep it open, and form to close it. -->
+    <!-- This is a non-modal dialog --> 
+    <dialog open>
+        <p>HTML only dialog</p>
+        <form method="dialog">
+            <button>OK</button>
+        </form>
+    </dialog>
+    <!-- Modal dialog example -->
+    <dialog id="color">
+        <button autofocus>Close</button>
+        <p>This is a modal dialog</p>
+    </dialog>
+    <button>Show the dialog</button>
+    <section id="test">
+        <h2>CSE 110</h2>
+        <dialog id="section">
+            <button >X</button>
+            <p>Credits: 2</p>
+            <p>Info: This is a beginner course on backend programing basics and will help the user yeild better results in their line of work.</p>
+        </dialog>
+    </section>
+</body>
+</html>

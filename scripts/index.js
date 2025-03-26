@@ -96,11 +96,14 @@ const courses = [
         ],
         completed: false
     }
-]
+];
+
+const cseButton = document.querySelector("#cse");
+const wddButton = document.querySelector("#wdd");
 
 cseClasses.addEventListener("click", () => {
-    let cseButton = courses.filter(course => !course.subject("WDD"));
-    courseCards(cseButton);
+    wddButton.classList.add("wdd");
+    wddButton.classList.remove("cse")
 })
 
 courseCards(courses);
@@ -108,7 +111,7 @@ courseCards(courses);
 function courseCards(filteredClasses) {
     document.querySelector(".cards").innerHTML = "";
     filteredClasses.forEach(course => {
-        let card = document.createElement("section");
+        let card = document.createElement("button");
         let name = document.createElement("h2");
         let title = document.createElement("p");
         let credit = document.createElement("p");
@@ -117,26 +120,51 @@ function courseCards(filteredClasses) {
         let technology = document.createElement("p")
 
         name.textContent = `${course.subject} ${course.number}`;
-        title.textContent = `${course.title}`
-        credit.textContent = `Credits: ${course.credits}`
-        certificate.textContent = `${course.certificate}`
+        title.textContent = `${course.title}`;
+        credit.textContent = `Credits: ${course.credits}`;
+        certificate.textContent = `${course.certificate}`;
+        description.textContent = `${course.description}`;
+        technology.textContent = `Technology: ${course.technology}`
 
         let complete = course.completed;
-        let subject = course.subject;
 
         if (complete === true) {
             card.classList.add("highlight");
         }
+        
 
         card.appendChild(name);
-        card.appendChild(title);
-        card.appendChild(credit)
+
+        card.addEventListener('click', () => {
+            displayCourseInfo(course);
+        })
 
         document.querySelector(".cards").appendChild(card);
+
+
 
     });
 }
 
+const courseDetails = document.querySelector("#course-details")
+
+function displayCourseInfo(data) {
+    courseDetails.innerHTML = `
+        <button id="close-button">X</button>
+        <h2>${data.subject} ${data.number}</h2>
+        <h3>${data.title}</h3>
+        <p>${data.credits} credits</p>
+        <p>Certificate: ${data.certificate}</p>
+        <p>${data.description}</p>
+        <p>Technology: ${data.technology}`;
+
+    courseDetails.showModal();
+
+    document.querySelector("#close-button").addEventListener("click", () => {
+        courseDetails.close();
+    })
+    
+}
 
 
 
