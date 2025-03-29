@@ -5,5 +5,5 @@ const navElement = document.querySelector(".mainLinks");
 
 // create an event listener for the button that will open and close menu links
 hamButton.addEventListener('click', () => {
-    navElement.classList.toggle(".open")
+    navElement.classList.toggle("open")
 })

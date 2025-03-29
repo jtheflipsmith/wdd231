@@ -1,0 +1,57 @@
+:root{
+    --ivory: #ffffebff;
+    --orange-crayola: #ff7733ff;
+    --lapis-lazuli: #00587aff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    border: 1px solid black;
+    background: var(--lapis-lazuli);
+}
+
+#hamButton {
+    height: 44px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: var(--ivory);
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .25rem 2vw;
+}
+
+ul.mainLinks{
+    list-style-type: none;
+}
+
+ul.mainLinks li a {
+    color: var(--ivory);
+    border: 1px dotted red;
+    display: block;
+    padding: .75rem 2vw;
+    text-decoration: none;
+}
+
+li.active a {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/*css for opening and closing the nav */
+ul.mainLinks {
+    display: none;
+}
+
+#hamButton.open::before {
+    content: "X";
+}
+
+ul.open {
+    display: block;
+}
