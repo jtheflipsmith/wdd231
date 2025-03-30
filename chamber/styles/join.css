@@ -149,7 +149,6 @@ section {
     box-shadow: 0 0 5px gray;
     transition-duration: 1500ms;
     transition-delay: 300ms;
-    transition-behavior: ease-in;
 }
 
 section h2 {
