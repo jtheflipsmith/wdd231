@@ -164,6 +164,7 @@ section button {
 
 /* MODAL STYLING */
 
+/* CSS reader is NOT registering this psuedo element even though it works and is what I am told is acceptable, */
 :modal {
     border: 5px solid black;
     padding: 3rem;
