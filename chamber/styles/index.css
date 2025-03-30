@@ -4,7 +4,7 @@
     --lapis-lazuli: #00587aff;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -14,38 +14,85 @@ body {
 
 }
 
-/* NAV */
+/* HEADER */ 
+
+header {
+    display: grid;
+    grid-template-columns: 100px auto 44px;
+    align-items: end;
+    background: var(--lapis-lazuli);
+    align-items: center;
+}
+
+#title { 
+    padding-left: 1rem;
+    font-size: 20px;
+}
+
+header img {
+    width: 100%;
+}
+
+/* NAVIGATION */
 
 
+
+#hamButton {
+    height: 44px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .1rem 2vw;
+
+}
+
+
+
+ul.mainLinks li a {
+    color: var(--ivory);
+    display: block;
+    padding: .75rem 2vw;
+    text-decoration: none;
+}
+
+ul.mainLinks a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+li.active a {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 5px black;
+}
+
+/*css for opening and closing the nav */
+ul.mainLinks {
+    list-style-type: none;
+}
+
+#hamButton::before {
+    content: "\2630";
+}
+
+#hamButton.open::before {
+    content: "x";
+}
+
+/* CSS for open class */
 nav {
     background: var(--lapis-lazuli);
-    padding: .75rem;
-
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
 }
 
-#navigation {
+nav ul {overflow: hidden;}
 
-    list-style: none;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    text-align: center;
-    padding: 1rem;
-    color: var(--ivory);
-}
-
-nav a:hover {
-    background: var(--orange-crayola);
-    padding: 1rem;
-    color: black;
-}
-
-.active:hover {
-    background: var(--ivory);
+nav.open {
+    grid-template-rows: 1fr;
 }
 
 /* MAIN */
