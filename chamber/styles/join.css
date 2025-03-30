@@ -164,8 +164,7 @@ section button {
 
 /* MODAL STYLING */
 
-/* CSS reader is NOT registering this psuedo element even though it works and is what I am told is acceptable, */
-:modal {
+dialog {
     border: 5px solid black;
     padding: 3rem;
     text-align: center;
@@ -174,16 +173,16 @@ section button {
     justify-self: center;
 }
 
-:modal button {
+dialog button {
     padding: .75rem;
     margin: 10px;
 }
 
-:modal h2 {
+dialog h2 {
     margin: 10px;
 }
 
-:modal p {
+dialog p {
     margin: 10px;
 }
 
