@@ -1,0 +1,13 @@
+{
+    "places" [
+        {
+            "name": "Telus World of Science",
+            "description":"Telus is a fun experience of learning for the whole family",
+            "image": "tellus.webp"
+        },
+        {
+            "name":"West Edmonton Mall"
+        }
+    ]
+
+}

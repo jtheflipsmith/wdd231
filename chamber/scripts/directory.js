@@ -65,9 +65,10 @@ listButton.addEventListener("click", () => {
     cards.classList.remove("grid");
 });
 
+//  Getting footer data for current date and recent modified
 
 const year = new Date().getFullYear();
-document.querySelector("#currentyear").textContent = year;
+document.querySelector("#currentYear").textContent = year;
 
 const modified = new Date().getDate();
 

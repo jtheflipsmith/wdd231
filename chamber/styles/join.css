@@ -189,3 +189,13 @@ dialog p {
 ::backdrop {
     background: rgba(2, 2, 2, 0.5);
 }
+
+/* FOOTER */
+
+footer {
+    background: var(--lapis-lazuli);
+    text-align: right;
+    color: white;
+    padding: 1rem;
+    border-top: 2px solid black;
+}

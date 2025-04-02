@@ -95,77 +95,10 @@ nav.open {
     grid-template-rows: 1fr;
 }
 
-/* -- DIRECTORY PAGE -- */
-
-.menu {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    margin: 1rem;
-}
-
-button {
-    padding: .75rem;
-    width: 8rem;
-}
-
-
-/* ---- Grid View ----- */
-
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-    
-.grid section {
-    background: lightgray;
-    grid-gap: 1rem;
-    padding-left: 1rem;
-    margin: 1rem;
-    box-shadow: 0 0 10px gray;
-    padding: 1rem;
-}
-
-.grid section img {
-    background: white;
-    padding: 10px;
-}
-
-#cards a {
-    text-decoration: none;
-}
-
-/* LIST VIEW */
-
-.list {
-    display: flex;
-
-    flex-direction: column;
-}
-
-.list section {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-    background: lightgray;
-    margin: .5rem;
-    padding: 10px;
-}
-
-
-.list section img {
-    display: none;
-}
-
 /* FOOTER */
 
 footer {
+    padding: 10px;
     background: var(--lapis-lazuli);
-    text-align: right;
-    color: white;
-    padding: 1rem;
-    border-top: 2px solid black;
+    text-align: center;
 }
