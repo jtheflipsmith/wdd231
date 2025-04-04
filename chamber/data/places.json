@@ -1,12 +1,53 @@
 {
-    "places" [
+    "places": [
         {
             "name": "Telus World of Science",
-            "description":"Telus is a fun experience of learning for the whole family",
-            "image": "tellus.webp"
+            "address": "11211 142 St NW, Edmonton, AB T5M 4A1",
+            "description":"A world of fun for the whole family, explore a range of fun rooms dedicated to the advances of science",
+            "image": "images/telus-world-of-science.webp"
+        },
+    
+        {
+            "name":"West Edmonton Mall",
+            "address":"8882 170 St NW, Edmonton, AB T5T 4J2",
+            "description":"One of the worlds largest shopping malls, you can find pretty much everything here at West Edmonton Mall.",
+            "image": "images/west-edmonton-mall.webp"
         },
         {
-            "name":"West Edmonton Mall"
+            "name":"Downtown Edmonton Public Library",
+            "address":"7 Sir Winston Churchill Sq NW, Edmonton, AB T5J 2V5",
+            "description":"A fun place of learning with a game room, recording studios, cooking classes, and so much more.",
+            "image": "images/epl-downtown.webp"
+        },
+        {
+            "name":"Fort Edmonton Park",
+            "address":"7 Sir Winston Churchill Sq NW, Edmonton, AB T5J 2V5",
+            "description":"Take a trip back in time and see Edmonton through the ages, train rides and carnivals await!",
+            "image":"images/fort-edmonton.webp"
+        },
+        {
+            "name":"Route 99",
+            "address":"8820 99 St NW, Edmonton, AB T6E 3V4",
+            "description":"A quaint 50's diner that will take you back in time.",
+            "image":"images/Route_99-edmonton.webp"
+        },
+        {
+            "name":"Rogers Place",
+            "address":"10220 104 Ave NW, Edmonton, AB T5J 0H6",
+            "description":"One of the newest and coolest places to go, holding events that will blow your mind",
+            "image":"images/rogersplace.webp"
+        },
+        {
+            "name":"Whyte Ave",
+            "address":"Whyte Avenue",
+            "description":"This street is a must see, with so many ecclectic shops and places to go",
+            "image":"images/white-avenue.webp"
+        },
+        {
+            "name":"Muttart Conservatory",
+            "address":"9626 96a St NW, Edmonton, AB T6C 4L8",
+            "description":"Get in touch with nature and see some exotic and amazing plants all preserved in the Muttart",
+            "image":"images/muttart-conservatory-edmonton.webp"
         }
     ]
 

@@ -1,0 +1,11 @@
+@media screen and (min-width: 40rem) {
+
+    .cards section {
+        grid-template-areas:
+    
+        "photo name" 
+        "photo address"
+        "photo description"
+        "button button"
+    }
+}

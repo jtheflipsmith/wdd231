@@ -46,10 +46,9 @@ header img {
     cursor: pointer;
     width: 100%;
     text-align: right;
-    padding: .1rem 2vw;
+    padding: .1rem 1vw;
 
 }
-
 
 
 ul.mainLinks li a {
@@ -94,6 +93,66 @@ nav ul {overflow: hidden;}
 nav.open {
     grid-template-rows: 1fr;
 }
+
+/* MAIN */
+main {
+    padding: 1rem;
+}
+
+
+.cards section {
+    background: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    overflow: hidden;
+
+    /*setting the named areas */
+    display: grid;
+    grid-template-areas:
+
+    "photo" 
+    "name"
+    "address"
+    "description"
+    "button";
+}
+
+.cards section img {
+    width: 100%;
+    grid-area: photo;
+    margin: auto;
+}
+
+.cards h2 {
+
+    grid-area: name;
+}
+.cards address {
+
+    grid-area: address;
+}
+
+.cards p {
+
+    grid-area: description;
+}
+ 
+.cards button {
+    display: block;
+    margin: auto;
+    padding: .75rem;
+    width: 90%;
+    margin: 20px;
+    cursor: pointer;
+    grid-area: button;
+}
+
+.cards h2,
+.cards address,
+.cards p {
+    margin: 10px;
+}
+
 
 /* FOOTER */
 
