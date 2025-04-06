@@ -8,4 +8,14 @@
         "photo description"
         "button button"
     }
+
+    .cards section img {
+        max-width: 300px;
+        box-shadow: 0 0 5px;
+        margin: 10px;
+    }
+
+    .cards img:hover{
+        filter: contrast(50%);
+    }
 }

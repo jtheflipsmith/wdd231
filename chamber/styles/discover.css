@@ -99,6 +99,9 @@ main {
     padding: 1rem;
 }
 
+main div {
+    margin-top: 20px;
+}
 
 .cards section {
     background: lightgray;
@@ -119,6 +122,7 @@ main {
 
 .cards section img {
     width: 100%;
+
     grid-area: photo;
     margin: auto;
 }

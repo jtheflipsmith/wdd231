@@ -14,4 +14,8 @@
         "description"
         "button";
     }
+
+    .cards img:hover {
+        filter: contrast(50%);
+    }
 }
