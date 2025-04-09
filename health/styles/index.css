@@ -1,0 +1,13 @@
+:root {
+    --rich-black: hsla(208, 90%, 8%, 1);
+    --robin-egg-blue: hsla(178, 65%, 54%, 1);
+}
+
+body {
+    background: var(--rich-black);
+}
+
+h1, p {
+    background: var(--robin-egg-blue);
+    padding: 10px;
+}
