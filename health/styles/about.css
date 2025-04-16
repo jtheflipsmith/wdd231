@@ -1,0 +1,146 @@
+:root {
+    --rich-black: hsla(208, 90%, 8%, 1);
+    --robin-egg-blue: hsla(178, 65%, 54%, 1);
+    --robin-egg-blue-light: hsla(178, 65%, 54%, 0.7);
+    --mint: hsla(166, 100%, 40%, 1);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    background: var(--robin-egg-blue);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* HEADER */ 
+
+header {
+    display: grid;
+    grid-template-columns: 100px auto 44px;
+    align-items: end;
+    background: var(--mint);
+    align-items: center;
+}
+
+#title { 
+    padding-left: 1rem;
+    font-size: 20px;
+}
+
+header img {
+    width: 100%;
+    border-radius: 0 0 40px 0;
+}
+
+/* NAVIGATION */
+
+
+
+#hamButton {
+    height: 44px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .1rem 2vw;
+
+}
+
+
+
+ul.mainLinks li a {
+    color: var(--ivory);
+    display: block;
+    padding: .75rem 2vw;
+    text-decoration: none;
+}
+
+ul.mainLinks a:hover {
+    background: var(--mint)
+}
+
+li.active a{
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 5px black;
+}
+
+/*css for opening and closing the nav */
+ul.mainLinks {
+    list-style-type: none;
+}
+
+#hamButton::before {
+    content: "\2630";
+}
+
+#hamButton.open::before {
+    content: "x";
+}
+
+/* CSS for open class */
+nav {
+    background: var(--lapis-lazuli);
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+
+nav ul {overflow: hidden;}
+
+nav.open {
+    grid-template-rows: 1fr;
+}
+
+/* CSS for the main content area */
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;    
+}
+
+input[type=text],
+input[type=tel],
+input[type=date],
+input[type=email],
+select
+{
+    display: block;
+    margin: .1rem 0 1rem 0 ;
+    padding: .75rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    border-left-width: 5px;
+    border-left-color:#555;
+    font-size: 1rem;
+    color: #3D405B;
+    width: 80%;
+}
+
+textarea {
+    display: block;
+    margin: .1rem 0 1rem 0 ;
+    padding: 3rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    border-left-width: 5px;
+    border-left-color:#555;
+    font-size: 1rem;
+    color: #3D405B;
+    width: 80%;
+}
+
+form button {
+    padding: 0.75rem;
+}
