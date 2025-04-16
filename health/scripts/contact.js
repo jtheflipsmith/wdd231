@@ -4,6 +4,8 @@ const hamButton = document.querySelector("#hamButton");
 const navElement = document.querySelector("#animateMe");
 
 // create an event listener for the button that will open and close menu links
+// Sometimes when there is an error that reads addEventListener as null
+// the missing defer can be a culprit.
 hamButton.addEventListener('click', () => {
     navElement.classList.toggle("open");
     hamButton.classList.toggle("open");
