@@ -1,0 +1,419 @@
+{
+    "workouts": [
+        {
+            "id": 1,
+            "name": "Bench Press",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "strength",
+            "focus": "upperbody",
+            "sets": 5,
+            "reps": 5,
+            "weight": "80-85% 1RM",
+            "details": "Focus on slow, controlled reps"
+        },
+        {
+            "id": 2,
+            "name": "Deadlift",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "strength",
+            "focus": "back",
+            "sets": 5,
+            "reps": 5,
+            "weight": "80-85% 1RM",
+            "details": "Keep spine neutral"
+        },
+        {
+            "id": 3,
+            "name": "Squat",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "strength",
+            "focus": "lowerbody",
+            "sets": 5,
+            "reps": 5,
+            "weight": "80-85% 1RM",
+            "details": "Depth to knee level"
+        },
+        {
+            "id": 4,
+            "name": "Overhead Press",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "strength",
+            "focus": "upperbody",
+            "sets": 5,
+            "reps": 5,
+            "weight": "80-85% 1RM",
+            "details": "Lock out at top"
+        },
+        {
+            "id": 5,
+            "name": "Plank",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "strength",
+            "focus": "core",
+            "sets": 3,
+            "reps": "30s hold",
+            "weight": "Bodyweight",
+            "details": "Engage core fully"
+        },
+        {
+            "id": 6,
+            "name": "Power Clean",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "power",
+            "focus": "fullbody",
+            "sets": 3,
+            "reps": 3,
+            "weight": "70-75% 1RM",
+            "details": "Explosive lift"
+        },
+        {
+            "id": 7,
+            "name": "Box Jump",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "power",
+            "focus": "lowerbody",
+            "sets": 3,
+            "reps": 8,
+            "weight": "Bodyweight",
+            "details": "Land softly"
+        },
+        {
+            "id": 8,
+            "name": "Push Press",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "power",
+            "focus": "upperbody",
+            "sets": 3,
+            "reps": 5,
+            "weight": "70-75% 1RM",
+            "details": "Use legs to drive"
+        },
+        {
+            "id": 9,
+            "name": "Medicine Ball Slam",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "power",
+            "focus": "core",
+            "sets": 3,
+            "reps": 10,
+            "weight": "10-20 lbs",
+            "details": "Full extension"
+        },
+        {
+            "id": 10,
+            "name": "Snatch",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "power",
+            "focus": "fullbody",
+            "sets": 3,
+            "reps": 3,
+            "weight": "70-75% 1RM",
+            "details": "Fast pull"
+        },
+        {
+            "id": 11,
+            "name": "Dumbbell Curl",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "hypertrophy",
+            "focus": "upperbody",
+            "sets": 3,
+            "reps": 10,
+            "weight": "60-70% 1RM",
+            "details": "Controlled tempo"
+        },
+        {
+            "id": 12,
+            "name": "Leg Press",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "hypertrophy",
+            "focus": "lowerbody",
+            "sets": 4,
+            "reps": 12,
+            "weight": "60-70% 1RM",
+            "details": "Full range"
+        },
+        {
+            "id": 13,
+            "name": "Lat Pulldown",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "hypertrophy",
+            "focus": "back",
+            "sets": 3,
+            "reps": 10,
+            "weight": "60-70% 1RM",
+            "details": "Squeeze lats"
+        },
+        {
+            "id": 14,
+            "name": "Russian Twist",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "hypertrophy",
+            "focus": "core",
+            "sets": 3,
+            "reps": 15,
+            "weight": "10-15 lbs",
+            "details": "Twist fully"
+        },
+        {
+            "id": 15,
+            "name": "Chest Fly",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "hypertrophy",
+            "focus": "upperbody",
+            "sets": 3,
+            "reps": 12,
+            "weight": "60-70% 1RM",
+            "details": "Stretch at bottom"
+        },
+        {
+            "id": 16,
+            "name": "Bodyweight Squat",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "endurance",
+            "focus": "lowerbody",
+            "sets": 3,
+            "reps": 20,
+            "weight": "Bodyweight",
+            "details": "Steady pace"
+        },
+        {
+            "id": 17,
+            "name": "Push-Up",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "endurance",
+            "focus": "upperbody",
+            "sets": 3,
+            "reps": 25,
+            "weight": "Bodyweight",
+            "details": "Full range"
+        },
+        {
+            "id": 18,
+            "name": "Pull-Up",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "endurance",
+            "focus": "back",
+            "sets": 3,
+            "reps": 15,
+            "weight": "Bodyweight",
+            "details": "Controlled descent"
+        },
+        {
+            "id": 19,
+            "name": "Bicycle Crunch",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "endurance",
+            "focus": "core",
+            "sets": 3,
+            "reps": 20,
+            "weight": "Bodyweight",
+            "details": "Alternate sides"
+        },
+        {
+            "id": 20,
+            "name": "Lunge",
+            "type": "resistance",
+            "category": "resistance",
+            "subcategory": "endurance",
+            "focus": "lowerbody",
+            "sets": 3,
+            "reps": 20,
+            "weight": "Bodyweight",
+            "details": "Step forward"
+        },
+        {
+            "id": 21,
+            "name": "Sprint",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "atp-pcr",
+            "duration": "10s",
+            "details": "Max effort"
+        },
+        {
+            "id": 22,
+            "name": "Jump Squat",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "atp-pcr",
+            "duration": "15s",
+            "details": "Explosive jumps"
+        },
+        {
+            "id": 23,
+            "name": "Burpee",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "atp-pcr",
+            "duration": "20s",
+            "details": "Full body burst"
+        },
+        {
+            "id": 24,
+            "name": "Kettlebell Swing",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "atp-pcr",
+            "duration": "15s",
+            "details": "Power from hips"
+        },
+        {
+            "id": 25,
+            "name": "High Knees",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "atp-pcr",
+            "duration": "20s",
+            "details": "Fast pace"
+        },
+        {
+            "id": 26,
+            "name": "Interval Run",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "anaerobic",
+            "duration": "1 min sprint/1 min jog x 5",
+            "details": "Push anaerobic threshold"
+        },
+        {
+            "id": 27,
+            "name": "Hill Sprint",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "anaerobic",
+            "duration": "30s x 8",
+            "details": "Steep incline"
+        },
+        {
+            "id": 28,
+            "name": "Bike Sprint",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "anaerobic",
+            "duration": "45s x 6",
+            "details": "High resistance"
+        },
+        {
+            "id": 29,
+            "name": "Rowing Sprint",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "anaerobic",
+            "duration": "1 min x 5",
+            "details": "Full power strokes"
+        },
+        {
+            "id": 30,
+            "name": "Jump Rope",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "anaerobic",
+            "duration": "1 min x 5",
+            "details": "Fast rhythm"
+        },
+        {
+            "id": 31,
+            "name": "Jogging",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "aerobic",
+            "duration": "30 min",
+            "details": "Steady pace"
+        },
+        {
+            "id": 32,
+            "name": "Cycling",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "aerobic",
+            "duration": "45 min",
+            "details": "Moderate intensity"
+        },
+        {
+            "id": 33,
+            "name": "Swimming",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "aerobic",
+            "duration": "40 min",
+            "details": "Consistent strokes"
+        },
+        {
+            "id": 34,
+            "name": "Brisk Walk",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "aerobic",
+            "duration": "60 min",
+            "details": "Elevated heart rate"
+        },
+        {
+            "id": 35,
+            "name": "Elliptical",
+            "type": "endurance",
+            "category": "endurance",
+            "subcategory": "aerobic",
+            "duration": "35 min",
+            "details": "Smooth motion"
+        },
+        {
+            "id": 36,
+            "name": "Shoulder Mobility",
+            "type": "rehab",
+            "category": "rehab",
+            "duration": "10 min",
+            "details": "Slow circles, 10 each direction"
+        },
+        {
+            "id": 37,
+            "name": "Knee Flexion",
+            "type": "rehab",
+            "category": "rehab",
+            "duration": "15 min",
+            "details": "Gentle bends, 15 reps"
+        },
+        {
+            "id": 38,
+            "name": "Hip Stretch",
+            "type": "rehab",
+            "category": "rehab",
+            "duration": "10 min",
+            "details": "Hold 30s per side"
+        },
+        {
+            "id": 39,
+            "name": "Ankle Rotation",
+            "type": "rehab",
+            "category": "rehab",
+            "duration": "5 min",
+            "details": "20 rotations each way"
+        },
+        {
+            "id": 40,
+            "name": "Cat-Cow Stretch",
+            "type": "rehab",
+            "category": "rehab",
+            "duration": "10 min",
+            "details": "10 cycles, slow pace"
+        }
+    ]
+}

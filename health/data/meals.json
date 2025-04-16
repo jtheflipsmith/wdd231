@@ -1,0 +1,439 @@
+{
+    "meals":[
+        {
+          "name": "Quinoa and Black Bean Salad",
+          "meal-type": "lunch",
+          "ingredients": [
+            "1 cup quinoa",
+            "1 can black beans (drained and rinsed)",
+            "1 cup corn kernels (fresh, frozen, or canned)",
+            "1 red bell pepper (diced)",
+            "1/4 cup chopped cilantro",
+            "1 lime (juiced)",
+            "2 tbsp olive oil",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Rinse quinoa and cook according to package instructions. In a bowl, combine the cooked quinoa with black beans, corn, red bell pepper, and cilantro. Drizzle with lime juice and olive oil, season with salt and pepper, mix well, and chill before serving.",
+          "average_calories": 350,
+          "cost": "$10",
+          "image": "images/quinoa-salad.webp"
+          
+        },
+        {
+          "name": "Grilled Chicken Salad",
+          "meal-type": "lunch",
+          "ingredients": [
+            "1 chicken breast",
+            "4 cups mixed greens",
+            "1 cup cherry tomatoes (halved)",
+            "1 cucumber (sliced)",
+            "1/4 red onion (thinly sliced)",
+            "2 tbsp olive oil",
+            "1 lemon (juiced)",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Season the chicken breast with salt and pepper and grill until cooked through. Slice the chicken and lay it over mixed greens with cherry tomatoes, cucumber, and red onion. Drizzle with a dressing made from olive oil and lemon juice.",
+          "average_calories": 400,
+          "cost": "$12",
+          "image": "images/chicken-salad.webp"
+        },
+        {
+          "name": "Vegetable Stir-Fry with Tofu",
+          "meal-type": "dinner",
+          "ingredients": [
+            "14 oz firm tofu (pressed and cubed)",
+            "1 head broccoli (florets)",
+            "2 bell peppers (sliced)",
+            "2 carrots (julienned)",
+            "1 cup snap peas",
+            "2 cloves garlic (minced)",
+            "1 inch ginger (grated)",
+            "3 tbsp soy sauce",
+            "1 tbsp sesame oil"
+          ],
+          "directions": "Pan-fry tofu cubes until golden and set aside. In the same pan, stir-fry garlic and ginger in a little oil, add broccoli, bell peppers, carrots, and snap peas. Return tofu to the pan, pour in soy sauce, toss well, and finish with a drizzle of sesame oil.",
+          "average_calories": 300,
+          "cost": "$9",
+          "image": "images/tofu-stir-fry.webp"
+          
+        },
+        {
+          "name": "Lentil Soup",
+          "meal-type": "lunch",
+          "ingredients": [
+            "1 cup lentils",
+            "1 can diced tomatoes",
+            "1 onion (chopped)",
+            "3 cloves garlic (minced)",
+            "2 carrots (diced)",
+            "2 celery stalks (diced)",
+            "4 cups vegetable broth",
+            "2 tbsp olive oil",
+            "1 tsp cumin",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Heat olive oil in a pot and sauté onion, garlic, carrots, and celery until soft. Add lentils, diced tomatoes, vegetable broth, and cumin. Simmer for 25-30 minutes until lentils are tender. Season with salt and pepper before serving.",
+          "average_calories": 250,
+          "cost": "$8",
+          "image": "images/lentil.webp"
+        },
+        {
+          "name": "Greek Yogurt Parfait with Berries",
+          "meal-type": "breakfast",
+          "ingredients": [
+            "1 cup Greek yogurt",
+            "1 cup mixed berries (fresh or frozen)",
+            "1 tbsp honey",
+            "1/4 cup granola"
+          ],
+          "directions": "In a bowl or glass, layer Greek yogurt with mixed berries. Drizzle with honey and finish with a sprinkle of granola. Chill before eating for a refreshing snack or light meal.",
+          "average_calories": 200,
+          "cost": "$6",
+          "image": "images/parfait.webp"
+        },
+        {
+          "name": "Spinach and Mushroom Omelette",
+          "meal-type": "breakfast",
+          "ingredients": [
+            "3 eggs (or egg whites equivalent)",
+            "1 cup spinach",
+            "1 cup mushrooms (sliced)",
+            "1 tbsp olive oil",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Sauté mushrooms in olive oil until tender, add spinach until wilted. Pour beaten eggs over the vegetables in the pan, cook until the eggs set, then fold the omelette in half. Season with salt and pepper.",
+          "average_calories": 250,
+          "cost": "$5",
+          "image": "images/omelette.webp"
+        },
+        {
+          "name": "Zucchini Noodles with Tomato Sauce",
+          "meal-type": "dinner",
+          "ingredients": [
+            "2 medium zucchinis",
+            "1 can crushed tomatoes",
+            "2 cloves garlic (minced)",
+            "1/4 cup fresh basil (chopped)",
+            "1 tbsp olive oil",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Use a spiralizer to turn zucchinis into noodles. In a pan, heat olive oil and sauté garlic, add crushed tomatoes and basil, letting it simmer for about 10 minutes. Toss the zucchini noodles briefly in the sauce and serve immediately.",
+          "average_calories": 200,
+          "cost": "$7",
+          "image": "images/zoodles.webp"
+        },
+        {
+          "name": "Chickpea and Spinach Curry",
+          "meal-type": "dinner",
+          "ingredients": [
+            "1 can chickpeas (drained and rinsed)",
+            "3 cups fresh spinach",
+            "1 can diced tomatoes",
+            "1 onion (chopped)",
+            "2 cloves garlic (minced)",
+            "1 inch ginger (grated)",
+            "2 tsp curry powder",
+            "1/2 cup light coconut milk",
+            "1 tbsp olive oil"
+          ],
+          "directions": "Sauté onion, garlic, and ginger in olive oil until soft. Stir in curry powder and diced tomatoes and simmer for 5 minutes. Add chickpeas and spinach, cook until spinach wilts, then stir in coconut milk and heat through.",
+          "average_calories": 350,
+          "cost": "$8",
+          "image": "images/curry.webp"
+        },
+        {
+          "name": "Cucumber and Avocado Salad",
+          "meal-type": "lunch",
+          "ingredients": [
+            "1 cucumber (diced)",
+            "1 avocado (diced)",
+            "1/4 red onion (thinly sliced)",
+            "1 lime (juiced)",
+            "2 tbsp chopped cilantro",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Combine diced cucumber, avocado, and red onion in a bowl. Add chopped cilantro and toss with lime juice. Season with salt and pepper, serve immediately.",
+          "average_calories": 250,
+          "cost": "$7",
+          "image": "images/avocado-salad.webp"
+        },
+        {
+          "name": "Turkey Lettuce Wraps",
+          "meal-type": "lunch",
+          "ingredients": [
+            "1/2 lb ground turkey",
+            "1 head iceberg or butter lettuce",
+            "1 bell pepper (diced)",
+            "1 onion (diced)",
+            "2 cloves garlic (minced)",
+            "1 tsp grated ginger",
+            "2 tbsp soy sauce",
+            "1/4 cup chopped water chestnuts (optional)"
+          ],
+          "directions": "Cook ground turkey in a skillet with diced bell pepper, onion, garlic, and ginger until browned. Stir in soy sauce and water chestnuts, then spoon the mixture into lettuce leaves to serve.",
+          "average_calories": 300,
+          "cost": "$10",
+          "image": "images/turkey-lettuce-wraps.webp"
+        },
+        {
+          "name": "Baked Sweet Potato with Black Beans",
+          "meal-type": "dinner",
+          "ingredients": [
+            "1 medium sweet potato",
+            "1/2 can black beans (drained and rinsed)",
+            "1/2 cup corn kernels",
+            "1/2 red bell pepper (diced)",
+            "1 lime (juiced)",
+            "1/2 tsp cumin",
+            "1 tbsp olive oil",
+            "Salt to taste"
+          ],
+          "directions": "Bake sweet potato until tender. In a bowl, mix black beans, corn, and red bell pepper with lime juice, olive oil, cumin, and salt. Slice the baked sweet potato open and top with the bean mixture.",
+          "average_calories": 350,
+          "cost": "$8",
+          "image": "images/baked-sweet-potato.webp"
+        },
+        {
+          "name": "Egg White Frittata with Vegetables",
+          "meal-type": "breakfast",
+          "ingredients": [
+            "6 egg whites",
+            "1 cup spinach",
+            "1 bell pepper (diced)",
+            "1 tomato (diced)",
+            "1/4 onion (chopped)",
+            "1 tbsp olive oil",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Preheat oven broiler. Sauté bell pepper, tomato, onion, and spinach in olive oil until soft. Pour in the egg whites, cook on the stovetop until the edges set, then finish under the broiler until the top is fully set. Season with salt and pepper.",
+          "average_calories": 180,
+          "cost": "$6",
+          "image": "images/egg-frittata.webp"
+        },
+        {
+          "name": "Broccoli and Cauliflower Stir-Fry",
+          "meal-type": "dinner",
+          "ingredients": [
+            "1 head broccoli (cut into florets)",
+            "1 head cauliflower (cut into florets)",
+            "2 cloves garlic (minced)",
+            "1 inch ginger (grated)",
+            "2 tbsp low-sodium soy sauce",
+            "1 tbsp olive oil",
+            "1/4 tsp red chili flakes (optional)"
+          ],
+          "directions": "In a large pan, heat olive oil and stir-fry garlic and ginger. Add broccoli and cauliflower and stir-fry until just tender. Drizzle with soy sauce and sprinkle red chili flakes before serving.",
+          "average_calories": 220,
+          "cost": "$7",
+          "image": "images/broccoli-cauliflower-stirfry.webp"
+        },
+        {
+          "name": "Oatmeal with Almonds and Fruit",
+          "meal-type": "breakfast",
+          "ingredients": [
+            "1 cup rolled oats",
+            "2 cups almond milk",
+            "1 banana (sliced)",
+            "1/4 cup sliced almonds",
+            "1/2 tsp cinnamon",
+            "1 tsp honey (optional)"
+          ],
+          "directions": "Bring almond milk to a simmer and stir in rolled oats and cinnamon. Cook until thickened. Top with banana slices, almonds, and a drizzle of honey if desired.",
+          "average_calories": 300,
+          "cost": "$4",
+          "image":"images/fruit-almond-oatmeal.webp"
+        },
+        {
+          "name": "Soba Noodle Salad with Edamame",
+          "meal-type": "lunch",
+          "ingredients": [
+            "8 oz soba noodles",
+            "1 cup edamame (shelled)",
+            "1 carrot (julienned)",
+            "1 cucumber (julienned)",
+            "1 bell pepper (thinly sliced)",
+            "2 tbsp rice vinegar",
+            "1 tbsp soy sauce",
+            "1 tsp sesame oil"
+          ],
+          "directions": "Cook soba noodles and edamame according to package directions, then rinse under cold water. Toss with carrots, cucumber, and bell pepper. Whisk together rice vinegar, soy sauce, and sesame oil and toss with the salad.",
+          "average_calories": 350,
+          "cost": "$9",
+          "image": "images/sobanoodles-edemame.webp"
+        },
+        {
+          "name": "Stuffed Bell Peppers with Brown Rice",
+          "meal-type": "dinner",
+          "ingredients": [
+            "4 bell peppers (tops cut off and seeded)",
+            "1 cup brown rice (cooked)",
+            "1 can black beans (drained and rinsed)",
+            "1/2 cup corn kernels",
+            "1 can diced tomatoes",
+            "1 small onion (diced)",
+            "1 tsp cumin",
+            "1/4 cup shredded cheese (optional)",
+            "1 tbsp olive oil"
+          ],
+          "directions": "Sauté diced onion in olive oil until soft. In a bowl, combine cooked brown rice, black beans, corn, tomatoes, and cumin. Stuff the mixture into the hollowed bell peppers, top with cheese if using, and bake at 375°F for about 25-30 minutes.",
+          "average_calories": 400,
+          "cost": "$10",
+          "image": "images/stuffed-bell-peppers.webp"
+        },
+        {
+          "name": "Spaghetti Squash with Marinara",
+          "meal-type": "dinner",
+          "ingredients": [
+            "1 medium spaghetti squash",
+            "1 can crushed tomatoes",
+            "2 cloves garlic (minced)",
+            "1/2 onion (chopped)",
+            "1/4 cup fresh basil (chopped)",
+            "1 tbsp olive oil",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Cut the spaghetti squash in half and remove seeds. Roast cut-side down at 400°F for about 40 minutes. While squash is roasting, sauté garlic and onion in olive oil, add crushed tomatoes and basil, simmer for 10 minutes. Scrape out squash strands and serve with marinara sauce.",
+          "average_calories": 300,
+          "cost": "$8",
+          "image": "images/spaghetti-squash-marinara.webp"
+        },
+        {
+          "name": "Mixed Greens with Tuna and Veggies",
+          "meal-type": "lunch",
+          "ingredients": [
+            "4 cups mixed greens",
+            "1 can tuna in water (drained)",
+            "1 cup cherry tomatoes (halved)",
+            "1 cucumber (diced)",
+            "1/4 red onion (thinly sliced)",
+            "2 tbsp olive oil",
+            "1 lemon (juiced)",
+            "Salt and pepper to taste"
+          ],
+          "directions": "In a large salad bowl, combine mixed greens, cherry tomatoes, cucumber, and red onion. Add flaked tuna on top and dress with olive oil and lemon juice. Season lightly with salt and pepper.",
+          "average_calories": 300,
+          "cost": "$9",
+          "image": "images/greens-tuna-veggies.webp"
+        },
+        {
+          "name": "Roasted Brussels Sprouts and Chickpeas",
+          "meal-type": "dinner",
+          "ingredients": [
+            "1 lb Brussels sprouts (halved)",
+            "1 can chickpeas (drained and rinsed)",
+            "2 tbsp olive oil",
+            "1/2 tsp garlic powder",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Preheat oven to 400°F. Toss Brussels sprouts and chickpeas with olive oil, garlic powder, salt, and pepper. Spread on a baking sheet and roast for 25-30 minutes until crispy and tender.",
+          "average_calories": 250,
+          "cost": "$7",
+          "image": "images/brussels-sprouts-and-chickpeas.webp"
+        },
+        {
+          "name": "Cauliflower Rice Stir-Fry",
+          "meal-type": "dinner",
+          "ingredients": [
+            "1 head cauliflower",
+            "1 cup mixed vegetables (e.g., carrots, peas, corn)",
+            "2 cloves garlic (minced)",
+            "1 inch ginger (grated)",
+            "2 tbsp soy sauce",
+            "1 tbsp olive oil"
+          ],
+          "directions": "Grate or blend cauliflower into rice-sized pieces. In a pan, heat olive oil and stir-fry garlic and ginger. Add cauliflower rice and mixed vegetables, stir-fry until tender, then mix in soy sauce.",
+          "average_calories": 200,
+          "cost": "$8",
+          "image": "images/cauliflower-rice-stirfry.webp"
+        },
+        {
+          "name": "Veggie-Packed Minestrone Soup",
+          "meal-type": "dinner",
+          "ingredients": [
+            "1 can kidney beans (rinsed)",
+            "1 can diced tomatoes",
+            "2 carrots (diced)",
+            "1 zucchini (diced)",
+            "2 celery stalks (diced)",
+            "2 cups spinach",
+            "1/2 cup small pasta (e.g., ditalini)",
+            "4 cups vegetable broth",
+            "2 cloves garlic (minced)",
+            "1/2 onion (chopped)",
+            "1 tsp Italian seasoning",
+            "1 tbsp olive oil"
+          ],
+          "directions": "In a large pot, heat olive oil and sauté onion, garlic, carrots, and celery until softened. Add diced tomatoes, vegetable broth, kidney beans, zucchini, and Italian seasoning. Bring to a simmer, add pasta and spinach, and cook until pasta is al dente and vegetables are tender.",
+          "average_calories": 250,
+          "cost": "$10",
+          "image": "images/veggie-minestrone-soup.webp"
+        },
+        {
+          "name": "Baked Cod with Asparagus",
+          "meal-type": "dinner",
+          "ingredients": [
+            "1 cod fillet (approximately 6 oz)",
+            "1 bunch asparagus (trimmed)",
+            "1 lemon (sliced and juiced)",
+            "2 cloves garlic (minced)",
+            "1 tbsp olive oil",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Preheat oven to 400°F. Place cod and asparagus on a baking sheet. Drizzle with olive oil, lemon juice, and sprinkle garlic, salt, and pepper. Top with lemon slices and bake for 12-15 minutes until cod is flaky and asparagus is tender.",
+          "average_calories": 350,
+          "cost": "$13",
+          "image": "images/cod-with-asparagus.webp"
+        },
+        {
+          "name": "Black Bean and Corn Salad",
+          "meal-type": "lunch",
+          "ingredients": [
+            "1 can black beans (drained and rinsed)",
+            "1 cup corn kernels",
+            "1 red bell pepper (diced)",
+            "1/4 red onion (finely chopped)",
+            "2 tbsp chopped cilantro",
+            "1 lime (juiced)",
+            "1 tbsp olive oil",
+            "Salt and pepper to taste"
+          ],
+          "directions": "In a bowl, combine black beans, corn, red bell pepper, and red onion. Stir in chopped cilantro, lime juice, and olive oil. Season with salt and pepper; chill before serving if desired.",
+          "average_calories": 300,
+          "cost": "$7",
+          "image": "images/black-bean-and-corn-salad.webp"
+        },
+        {
+          "name": "Grilled Portobello Mushrooms with Quinoa",
+          "meal-type": "dinner",
+          "ingredients": [
+            "2 large portobello mushrooms (stems removed)",
+            "1 cup quinoa (cooked)",
+            "2 tbsp olive oil",
+            "2 cloves garlic (minced)",
+            "1 tsp dried thyme",
+            "Salt and pepper to taste"
+          ],
+          "directions": "Marinate portobello mushrooms in olive oil, garlic, thyme, salt, and pepper. Grill over medium heat until tender. Serve the mushrooms over a bed of cooked quinoa, drizzling any remaining marinade on top.",
+          "average_calories": 300,
+          "cost": "$9",
+          "image": "images/grilled-portobello-quinoa.webp"
+        },
+        {
+          "name": "Mixed Berry Smoothie Bowl",
+          "meal-type": "breakfast",
+          "ingredients": [
+            "1 cup mixed berries (fresh or frozen)",
+            "1 banana",
+            "1/2 cup Greek yogurt",
+            "1/2 cup almond milk",
+            "1 tbsp chia seeds",
+            "1 tsp honey (optional)"
+          ],
+          "directions": "Blend mixed berries, banana, Greek yogurt, and almond milk until smooth. Pour the smoothie into a bowl and sprinkle with chia seeds and a drizzle of honey. Enjoy immediately.",
+          "average_calories": 250,
+          "cost": "$8",
+          "image": "images/berry-smoothie-bowl.webp"
+        }
+      ]
+      
+}

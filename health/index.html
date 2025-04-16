@@ -3,20 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health & Wellness</title>
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta property="og:title" content="ThriveWell Home page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jtheflipsmith.github.io/wdd231/health/home.html">
+    <meta property="og:image" content="https://cityuniversity.ca/wp-content/uploads/2021/01/iStock-1136615456-scaled.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="author" content="Joshua Smith">
+    <meta name="description" content="ThriveWell Home page, a health and wellness site dedicated to adapting to the user, a tool to help the user forge a way of life rather than a short diet or workout routine.">
+    <title>ThriveWell Home page</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <script src="scripts/index.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Site Name: Thrivewell</h1>
-    <p>A health an wellness site dedicating to adapting to the user, giving tools to help the user forge a way of life rather then a short diet or workout routine.</p><br>
-    <p>Question1: How does custimization work?</p>
-    <p>Question2: You're comparing us to a competitor. What would make you choose us based on the info here?</p><br>
-    <p>Colors: Rich Black for header, robin egg blue for nav</p><br>
-    <p>Font: EXO, applied as a whole</p>
-    <img src="images/thrivewell-home.webp" alt="home wireframe">
-    <img src="images/thrivewell-mobile.webp" alt="home mobile wireframe">
+    <header>
+        <img src="images/thrivewell logo.png" alt="leaflogo">
+        <span id="title">ThriveWell</span>        
+        <button id="hamButton"></button>
+    </header>
+    <nav id="animateMe">
+
+        <ul class="mainLinks">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="wourkout.html">Workouts</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="about.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Welcome to the new you</h1>
+        <img id="hero" src="images/sprinter.webp" alt="man ready to run">
+        <div class="workout">
+            <h2>Workouts</h2>
+            <img class="secondary" src="images/stretch.webp" alt="woman stretching" loading="lazy">    
+        </div>
+        <div class="nutrition">
+            <h2>Nutrition</h2>
+            <img class="secondary" src="images/cornucopia.webp" alt="Aray of food" loading="lazy">
+        </div>
+
+    </main>
+    <footer>
+        &copy; Joshua Smith 2025<br>
+    </footer>
 </body>
 </html>
