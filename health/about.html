@@ -11,7 +11,9 @@
     <meta name="author" content="Joshua Smith">
     <meta name="description" content="ThriveWell contact page, with a form to submit a review, and some company information.">
     <title>ThriveWell Home page</title>
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/about-large.css">
     <script src="scripts/about.js"></script>
 </head>
 <body>
@@ -23,14 +25,15 @@
     <nav id="animateMe">
 
         <ul class="mainLinks">
-            <li><a href="#">Home</a></li>
-            <li><a href="wourkout.html">Workouts</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workout.html">Workouts</a></li>
             <li><a href="nutrition.html">Nutrition</a></li>
             <li class="active"><a href="about.html">Contact Us</a></li>
         </ul>
     </nav>
     <main>
         <form action="thank-you.html" method="get">
+            <h2>Let us know what you think</h2>
             <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
             <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
             <label>Email <input type="email" name="email" required placeholder="john89@gmail.com"  title="Your Email" autocomplete="email"></label>    
@@ -38,6 +41,11 @@
             <input type="hidden" name="timestamp" id="timestamp">
             <button type="submit">Share</button>
         </form>
+        <div class="contact">
+            <h2>Contact Info</h2>
+            <p>Phone: 1-800-555-1234</p>
+            <address>1234 Elm St, Edmonton, AB, Canada</address>
+        </div>
     </main>
     <footer></footer>
 </body>

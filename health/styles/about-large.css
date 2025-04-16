@@ -1,0 +1,27 @@
+@media only screen and (min-width: 38rem) {
+
+
+    #hamButton {
+        display: none;
+    }
+
+    ul.mainLinks, ul.mainLinks.open {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    nav { 
+        grid-template-rows: 1fr;
+    }
+
+    nav li{
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}

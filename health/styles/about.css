@@ -107,7 +107,8 @@ form {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    padding: 2rem;    
+    padding: 2rem;   
+    max-width: 80%;
 }
 
 input[type=text],
@@ -125,22 +126,43 @@ select
     border-left-color:#555;
     font-size: 1rem;
     color: #3D405B;
-    width: 80%;
+    width: 100%;
 }
 
 textarea {
     display: block;
     margin: .1rem 0 1rem 0 ;
-    padding: 3rem;
+    padding: 0.75rem;
     border: 1px solid #999;
     border-radius: 4px;
     border-left-width: 5px;
     border-left-color:#555;
     font-size: 1rem;
     color: #3D405B;
-    width: 80%;
+    width: 100%;
+    height: 5rem;
 }
 
 form button {
     padding: 0.75rem;
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.contact {
+    padding: 1rem;
+    background: var(--robin-egg-blue-light);
+    margin: 1rem;
+    border-radius: 3px;
+    height: 300px ;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.contact p,
+.contact address {
+    padding: 5px;
 }
